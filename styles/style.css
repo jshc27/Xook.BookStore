@@ -5,6 +5,16 @@
 -----------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+:root {
+
+    --BackgroundColor: #F57710;
+    --TextColor: #202336;
+    --Background1: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%); 
+    --Background2: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #E7EBF0;
+    --Background3:  #E7EBF0;
+    --BorderImageSource:  linear-gradient(91.57deg, rgba(255, 255, 255, 0.4) -4.29%, rgba(255, 255, 255, 0) 110.62%); 
+
+}
 
 body {
 
@@ -13,17 +23,14 @@ body {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background-color: #F57710;
+    background-color: var(--BackgroundColor);
     font-family: 'Lato', sans-serif;
     
 }
 
 /*-----------------------------------------
-
     COMPONENTS: HEADER
-
 -----------------------------------------*/
-
 .header {
 
     margin: 0 auto;
@@ -55,7 +62,7 @@ body {
 
     margin-right: 20px;
     font-size: 14px;
-    color: #E7EBF0;
+    color: var(--Background3);
     text-decoration: none;
 
 }
@@ -72,17 +79,19 @@ body {
 
 .header_buttonLogin, .header_buttonSignUp  {
 
+    height: 25px;
+    width: 100px;
     outline: none;
     margin-right: 20px;
     border-radius: 20px;
-    background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%); 
-    background: #E7EBF0; 
+    background: var(--Background1);
+    background: var(--Background3);
     border: 1px solid; 
-    border-image-source: linear-gradient(91.57deg, rgba(255, 255, 255, 0.4) -4.29%, rgba(255, 255, 255, 0) 110.62%); 
-    color:#202336;
+    border-image-source: var(--BorderImageSource);
+    color: var(--TextColor);
     font-weight: bold;
-    height: 25px;
-    width: 100px;
+    cursor: pointer;
+
 }
 
 .header_buttonSignUp {
@@ -90,14 +99,9 @@ body {
     margin: 0px;
 
 }
-
 /*-----------------------------------------
-
     COMPONENTS: HERO
-
 -----------------------------------------*/
-
-
 .hero {
 
     height: 280px;
@@ -115,7 +119,7 @@ body {
     list-style: none;
     text-decoration: none;
     margin-left: 50px;
-    color: #202336;
+    color: var(--TextColor);
 
 }
 
@@ -128,6 +132,7 @@ body {
 .hero_container ul {
 
     margin: 50px 0px 0px 0px;
+
 }
 
 .hero_container {
@@ -142,7 +147,6 @@ body {
 
 .hero_container img {
 
-
     margin-top: 20px;
 
 }
@@ -151,13 +155,12 @@ body {
 
     position: relative;
     bottom: 70px;
-    left: 160px;
+    left: 116px;
     width: 450px;
     height: 45px;
-    border: 1px solid red;
     margin-left: 20px;
     border: 0.5px solid rgba(255, 255, 255, 0.4);
-    background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #E7EBF0;
+    background: var(--Background2);
     background-blend-mode: soft-light, normal;
     box-sizing: border-box;
     box-shadow: inset -2.5px -2.5px 5px #FAFBFF, inset 2.5px 2.5px 5px #A6ABBD;
@@ -170,12 +173,13 @@ body {
     width: 413px;
     height: 44px;
     border:transparent;
+    font-size: 18px;
     margin-left: 35px;
     margin-top: 0px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     outline: none;
-    background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #E7EBF0;
+    background: var(--Background2);
     background-blend-mode: soft-light, normal;
     box-sizing: border-box;
     box-shadow: inset -2.5px -2.5px 5px #FAFBFF, inset 0px 2.5px 5px #A6ABBD;
@@ -189,5 +193,101 @@ body {
     position: relative;
     bottom: 32px;
     left: 10px;
+
+}
+/*-----------------------------------------
+    COMPONENTS: MAIN
+-----------------------------------------*/
+.main {
+
+    background-color: #FDFCFC;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 80vw;
+    height: 441px;
+    border-radius: 20px;
+    box-shadow: inset -2.5px -2.5px 5px #FAFBFF, inset 0px 2.5px 5px #A6ABBD;
+
+}
+
+.main_card1, .main_card2, .main_card3 {
+
+    height: 318px;
+    width: 236px;
+    padding: 20px;
+    margin-right: 30px;
+    background: var(--Background2);
+    background-blend-mode: soft-light, normal;
+    border: 3px solid var(--Background3);
+    box-sizing: border-box;
+    box-shadow: -15px -15px 30px #FAFBFF, 15px 15px 30px #A6ABBD;
+    border-radius: 10px;
+    
+
+}
+
+.main_cardsContainer, .main_buttons {
+
+    display: flex;
+    padding-top: 20px;
+    margin-top: 20px;
+    justify-content: center;
+
+}
+
+.main_buttons button {
+
+    margin-right: 20px;
+    border: 3px solid var(--Background3);
+    box-sizing: border-box;
+    background-blend-mode: soft-light, normal;
+    box-shadow: -5px -5px 10px #FAFBFF, 5px 5px 10px #A6ABBD;
+    border-radius: 10px;
+    outline: none;
+    color: var(--TextColor);
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.card1_favorite, .card2_favorite, .card3_favorite {
+
+    position: relative;
+    top: 55px;
+    left: 160px;
+    width: 37px;
+    height: 37px;
+    border-radius: 15px;
+    background: var(--Background2);
+    background-blend-mode: soft-light, normal;
+    border: 0.5px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    box-shadow: -10px -10px 20px #FAFBFF, 10px 10px 20px #A6ABBD;
+    outline: none;
+
+}
+
+.heart1, .heart2, .heart3 {
+
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+
+}
+/*-----------------------------------------
+    COMPONENTS: FOOTER
+-----------------------------------------*/
+footer {
+
+    height: 60px;
+
+}
+
+footer p {
+
+    display: flex;
+    justify-content: center;
+    color: var(--TextColor);
 
 }
