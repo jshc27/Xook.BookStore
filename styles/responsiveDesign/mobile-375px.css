@@ -31,6 +31,10 @@
         height: 70vh;
     }
 
+    .hero_container img {
+        margin-top: 40px;
+    }
+
     .hero_container a {
 
         font-size: 24px;
@@ -52,13 +56,16 @@
 
     .hero_containerSearch {
         position: relative;
-        left: 155px;
+        left: 150px;
         margin-top: 30px;
-        height: 58px;
+        height: 60px;
+        width: 500px
     }
 
     .hero_containerSearch input {
-        height: 55px;
+        height: 58px;
+        width: 460px;
+        font-size: 22px;
     }
     .hero_searchImg {
         position: relative;
