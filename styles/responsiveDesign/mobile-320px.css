@@ -1,4 +1,4 @@
-@media screen and  (max-width: 320px){
+@media screen and (max-width: 320px){
 
     body {
         width: 185vw;
@@ -32,7 +32,7 @@
     .hero_containerSearch {
         
         position: relative;
-        margin: 0px;
+        margin: -34px;
         left: 80px;
         
     }
@@ -54,4 +54,12 @@
     .main_buttons {
         padding-top: 40px;
     }
+
+    .card1_favorite {
+        position: relative;
+        left: 313px;
+        top: -10px;
+    }
+
+    
 }

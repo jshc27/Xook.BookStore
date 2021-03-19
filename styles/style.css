@@ -211,6 +211,12 @@ body {
 
 }
 
+.main_books1, .main_books2, .main_books3 {
+
+    height: 100px;
+
+}
+
 .main_card1, .main_card2, .main_card3 {
 
     height: 318px;
@@ -254,10 +260,10 @@ body {
 .card1_favorite, .card2_favorite, .card3_favorite {
 
     position: relative;
-    top: 55px;
-    left: 160px;
-    width: 37px;
-    height: 37px;
+    bottom: 18px;
+    left: 168px;
+    width: 30px;
+    height: 30px;
     border-radius: 15px;
     background: var(--Background2);
     background-blend-mode: soft-light, normal;
