@@ -19,7 +19,6 @@ CSS rules to specify families:
 - Font-family: 'Lato', sans-serif;
 - Regular 400 
 - Bold 700
-- 
 
 ## Letter size 
 
