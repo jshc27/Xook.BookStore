@@ -1,9 +1,96 @@
 @media screen and (max-width: 768px) {
 
+.body {
 
-    .body {
-        width: 233%;
-    }
+    width: 100%;
+    font-size: 18px;
 
+}
 
+.header {
+
+    width: 100%;
+
+}
+
+.header_containerRight {
+
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+
+}
+
+.header_buttonLogin, .header_buttonSignUp {
+
+    height: 40px;
+    width: 100px;
+    font-size: 18px;
+
+}
+
+.header_containerLeft li a {
+
+    font-size: 18px;
+
+}
+
+.hero {
+
+    height: 300px;
+
+}
+
+.hero_container {
+
+    width: 90%;
+    padding-top: 20px;
+
+}
+
+.hero_containerSearch {
+
+    position: relative;
+    bottom: 85px;
+    height: 61px;
+
+}
+.hero_containerSearch input {
+
+    height: 60px;
+
+}
+.hero_searchImg {
+
+    bottom: 38px;
+
+}
+
+.main {
+
+    width: 90%;
+    height: 100%;
+
+}
+
+.main_card1, .main_card2, .main_card3 {
+
+    height: 380px;
+    margin-bottom: 20px;
+    margin: 0px 20px 30px 20px;
+
+}
+
+.main_buttons {
+
+    height: 40px;
+
+}
+
+.main_buttons button {
+
+    width: 180px;
+    font-size: 18px;
+
+}
 }

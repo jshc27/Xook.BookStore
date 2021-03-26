@@ -292,14 +292,23 @@ body {
 -----------------------------------------*/
 footer {
 
-    height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 60px;
+
+}
+
+footer p, a {
+
+        display: flex;
+        color: var(--TextColor);
 
 }
 
 footer p {
 
-    display: flex;
-    justify-content: center;
-    color: var(--TextColor);
+    margin-right: -45px;
 
 }
+
