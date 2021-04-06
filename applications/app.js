@@ -1,6 +1,5 @@
 
-const url = ' https://vedicscripturesapi.herokuapp.com/gita/chapters';
-
+const url = 'https://vedicscripturesapi.herokuapp.com/gita/chapters';
 
 
 fetch(url)
@@ -8,8 +7,9 @@ fetch(url)
 .then(data => {
 
     let element = document.getElementById('book1')
-    let elem = document.getElementById('autor1')
-    let ele = document.getElementById('parag')
+    let eleme = document.getElementById('autor1')
+    let elem = document.getElementById('parag')
+    
 
     element.innerHTML = `
     <img src="${data.image}">
