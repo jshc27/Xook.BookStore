@@ -1,8 +1,55 @@
 [
 
-  {
-      "url": "images/libro.png",
-      "Description": "The first chapter of the Bhagavad Gita - Arjuna Vishada Yoga introduces the setup, the setting, the characters and the circumstances that led to the epic battle of Mahabharata, fought between the Pandavas and the Kauravas."
-  },
+      {
+            "url": "./images/libro1.png",
+            "Description": "The first chapter of the Bhagavad Gita - Arjuna Vishada Yoga introduces the setup, the setting, the characters."
+      },
+      {
+            "url": "./images/libro2.png",
+            "Description": "The first chapter of the Bhagavad Gita - Arjuna Vishada Yoga introduces the setup, the setting, the characters."
+      },
+      {
+            "url": "./images/libro3.png",
+            "Description": "The first chapter of the Bhagavad Gita - Arjuna Vishada Yoga introduces the setup, the setting, the characters."
+      },
+      {
+            "url": "./images/libro4.png",
+            "Description": "The first chapter of the Bhagavad Gita - Arjuna Vishada Yoga introduces the setup."
+      },
+      {
+            "url": "./images/libro5.png",
+            "Description": "The first chapter of the Bhagavad Gita - Arjuna Vishada Yoga introduces the setup, the setting, the characters."
+      },
+      {
+            "url": "./images/libro6.png",
+            "Description": "The first chapter of the Bhagavad Gita - Arjuna Vishada Yoga introduces the setup, the setting, the characters."
+      },
+      {
+            "url": "./images/libro7.png",
+            "Description": "The first chapter of the Bhagavad Gita - Arjuna Vishada Yoga introduces the setup, the setting, the characters."
+      },
+      {
+            "url": "./images/libro8.png",
+            "Description": "The first chapter of the Bhagavad Gita - Arjuna Vishada Yoga introduces the setup, the setting, the characters."
+      },
+      {
+            "url": "./images/libro9.png",
+            "Description": "The first chapter of the Bhagavad Gita - Arjuna Vishada Yoga introduces the setup, the setting, the characters."
+      },
+      {
+            "url": "./images/libro10.png",
+            "Description": "The first chapter of the Bhagavad Gita - Arjuna Vishada Yoga introduces the setup, the setting, the characters."
+      },
+      {
+            "url": "./images/libro11.png",
+            "Description": "The first chapter of the Bhagavad Gita - Arjuna Vishada Yoga introduces the setup."
+      },
+      {
+            "url": "./images/libro12.png",
+            "Description": "The first chapter of the Bhagavad Gita - Arjuna Vishada Yoga introduces the setup, the setting, the characters."
+      }
 
 ]
+
+
+
