@@ -1,4 +1,4 @@
-# APLICACIÓN WEB XOOK - BOOK STORE
+# APLICACIÓN WEB Xook - BOOK STORE
 Aplicación Web Xook es una biblioteca virtual utilizando las tecnologías base: HTML, CSS Y JavaScript. 
 
 Objetivo: Realizar una biblioteca virtual utilizando HTML Y CSS para la maquetación y JS Vanilla para la interacción. Leer de una API (fake o real online) y listar libros de diferentes autores y géneros. La aplicación debe permitir filtrar por género, buscar por nombre y crear una lista de libros favoritos. No es necesario crear sistema de registro ni login. sugerencia de fake api: https://bhagavadgita.io/api/
