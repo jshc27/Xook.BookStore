@@ -1,29 +1,10 @@
-
-
 const formulario = document.querySelector('#formulario');
-const results = document.querySelector('#results');
+const boton = document.querySelector('#boton');
 
 
-const filtrar = ()=>{
-
-    results.innerHTML = '',
-
-    const texto = formulario.value.toUpperCase();
-
-    for(let respuesta) {
-        let nombre = respuesta.nombre.toUpperCase();
-        if(nombre.indexOf(texto) !== -1){
-            results.innerHTML += `
-            <li>${respuesta.nombre}</li>
-            `;
-        }
-    }
-    if(resultados.innerHTML === ''){
-        resultados.innerHTML += `
-        <li>Producto no encontrado...</li>
-        `;
+const filtrar = () => {
+    console.log(formulario.value);
 }
 
-formulario.addEventListener('keyup', filtrar);
 
-filtrar();
+boton.addEventListener('click', filtrar)
