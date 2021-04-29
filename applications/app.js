@@ -83,10 +83,9 @@ xhttp.open("GET", "data.json", true);
 xhttp.send();
 
 
-
 fetch(url)
-.then(response => response.json())
-.then(data => {
+    .then(response => response.json())
+    .then(data => {
 
     let element = document.getElementById('book1');
     let autor1 = document.querySelector('#autor1').innerHTML = data[0].translation;
@@ -104,16 +103,6 @@ fetch(url)
     let autor12 = document.querySelector('#autor12').innerHTML = data[11].translation;
     let autor13 = document.querySelector('#autor13').innerHTML = data[12].translation;
     
-
-    
-
-    // element.innerHTML = `
-    // <img src="${data.image}">
-    // <h3>${data[0].translation}</h3>
-    // `;
-    console.log(data)
-})
-.catch(error=> console.log(error))
-
-
-
+    console.log(data);
+}
+.catch(error=> console.log(error));
