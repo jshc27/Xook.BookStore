@@ -105,6 +105,6 @@ fetch(url)
     let autor13 = document.querySelector('#autor13').innerHTML = data[12].translation;
     
     console.log(data);
-},
+})
 
 .catch(error=> console.log(error));
