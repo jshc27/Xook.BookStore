@@ -1,7 +1,3 @@
-
-const url = 'https://vedicscripturesapi.herokuapp.com/gita/chapters';
-
-
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
@@ -84,25 +80,24 @@ xhttp.onreadystatechange = function() {
 xhttp.open("GET", "data.json", true);
 xhttp.send();
 
+const url = ' https://jsonplaceholder.typicode.com/users';
 fetch(url)
     .then(response => response.json())
     .then(data => {
 
     let element = document.getElementById('book1');
-    let autor1 = document.querySelector('#autor1').innerHTML = data[0].translation;
-    let autor2 = document.querySelector('#autor2').innerHTML = data[1].translation;
-    let autor3 = document.querySelector('#autor3').innerHTML = data[2].translation;
-    let autor4 = document.querySelector('#autor4').innerHTML = data[3].translation;
-    let autor5 = document.querySelector('#autor5').innerHTML = data[4].translation;
-    let autor6 = document.querySelector('#autor6').innerHTML = data[5].translation;
-
-    let autor7 = document.querySelector('#autor7').innerHTML = data[6].translation;
-    let autor8 = document.querySelector('#autor8').innerHTML = data[7].translation;
-    let autor9 = document.querySelector('#autor9').innerHTML = data[8].translation;
-    let autor10 = document.querySelector('#autor10').innerHTML = data[9].translation;
-    let autor11 = document.querySelector('#autor11').innerHTML = data[10].translation;
-    let autor12 = document.querySelector('#autor12').innerHTML = data[11].translation;
-    let autor13 = document.querySelector('#autor13').innerHTML = data[12].translation;
+    let autor1 = document.querySelector('#autor1').innerHTML = data[0].name;
+    let autor2 = document.querySelector('#autor2').innerHTML = data[1].name;
+    let autor3 = document.querySelector('#autor3').innerHTML = data[2].name;
+    let autor4 = document.querySelector('#autor4').innerHTML = data[3].name;
+    let autor5 = document.querySelector('#autor5').innerHTML = data[4].name;
+    let autor6 = document.querySelector('#autor6').innerHTML = data[5].name;
+    let autor7 = document.querySelector('#autor7').innerHTML = data[6].name;
+    let autor8 = document.querySelector('#autor8').innerHTML = data[7].name;
+    let autor9 = document.querySelector('#autor9').innerHTML = data[8].name;
+    let autor10 = document.querySelector('#autor10').innerHTML = data[9].name;
+    let autor11 = document.querySelector('#autor11').innerHTML = data[10].name;
+    let autor12 = document.querySelector('#autor12').innerHTML = data[11].name;
     
     console.log(data);
 })
