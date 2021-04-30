@@ -79,9 +79,10 @@ xhttp.onreadystatechange = function() {
         //      document.getElementById('book1').innerHTML = respuesta;
     }
 };
+
+
 xhttp.open("GET", "data.json", true);
 xhttp.send();
-
 
 fetch(url)
     .then(response => response.json())
@@ -104,5 +105,6 @@ fetch(url)
     let autor13 = document.querySelector('#autor13').innerHTML = data[12].translation;
     
     console.log(data);
-}
+},
+
 .catch(error=> console.log(error));
