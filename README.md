@@ -17,22 +17,22 @@ Objetivo: Realizar una biblioteca virtual utilizando HTML Y CSS para la maquetac
 CSS rules to specify families: 
 
 - Font-family: 'Lato', sans-serif;
-- Regular 400 
+- Regular 400
 - Bold 700
 
 ## Letter size 
 
-Title: 16px 
-Subtitle: 14px
-Descriptions: 12px 
+Title: 16px;
+Subtitle: 14px;
+Descriptions: 12px; 
 
-Border-Radius: 20px 
+Border-Radius: 20px;
 
 ## Component: Search
 
 background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%);
 background: #E7EBF0;
-border: 0,5px solid #FFFFFF 40 %
+border: 0,5px solid #FFFFFF 40 %;
 box-shadow: 2.5px 2.5px 5px 0px #A6ABBD inset;
 box-shadow: -2.5px -2.5px 5px 0px #FAFBFF inset;
 
