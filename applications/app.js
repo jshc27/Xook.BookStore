@@ -80,7 +80,7 @@ xhttp.onreadystatechange = function() {
 xhttp.open("GET", "data.json", true);
 xhttp.send();
 
-const url = ' https://jsonplaceholder.typicode.com/users';
+const url = 'http://hp-api.herokuapp.com/api/characters';
 fetch(url)
     .then(response => response.json())
     .then(data => {
