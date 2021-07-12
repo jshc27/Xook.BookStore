@@ -1,14 +1,29 @@
-# APLICACIÓN WEB Xook - BOOK STORE
-Aplicación Web Xook es una biblioteca virtual utilizando las tecnologías base: HTML, CSS Y JavaScript. 
+# Xook.BookStore  :computer:
 
-Objetivo: Realizar una biblioteca virtual utilizando HTML Y CSS para la maquetación y JS Vanilla para la interacción. Leer de una API (fake o real online) y listar libros de diferentes autores y géneros. La aplicación debe permitir filtrar por género, buscar por nombre y crear una lista de libros favoritos. No es necesario crear sistema de registro ni login. sugerencia de fake api: https://bhagavadgita.io/api/
+Xook Web Application is a virtual library using the base technologies: HTML, CSS and JavaScript. 
 
-# RECURSOS
-1. Prototipo de baja fidelidad: https://xook.invisionapp.com/freehand/Book-Store---Xook-NW1vbF74l
+Objective: To create a virtual library using HTML and CSS for the layout and JS Vanilla for the interaction. Read from an API (fake or real online) and list books of different authors and genres. The application should allow filtering by genre, search by name and create a list of favorite books. No need to create registration system or login. fake api suggestion: https://bhagavadgita.io/api/
+
+## Installation
+
+1. Clone this project
+2. Go to the project folder ( cd Xook)
+3. When you enter the folder, click on the html file (it shows you by default the browser to open the project).
+4. If you want to open through the terminal while in the Xook folder install Live server: npm install -g live-server
+5. When it is installed, enter the command live-server in your terminal and it should open the project visually. 
+
+## Demo
+
+https://jshc27.github.io/Xook.BookStore/
+
+
+## Resources
+
+1. Low fidelity prototype: https://xook.invisionapp.com/freehand/Book-Store---Xook-NW1vbF74l
 
 ![image](https://user-images.githubusercontent.com/56690309/111365168-27581b00-8660-11eb-8c4b-a3351f48d7cc.png)
 
-2. Prototipo de alta fidelidad: https://www.figma.com/file/MbPjG4mCom1PQsejkQd3AB/Book-Store-Xook?node-id=2%3A2
+2. High fidelity prototype: https://www.figma.com/file/MbPjG4mCom1PQsejkQd3AB/Book-Store-Xook?node-id=2%3A2
 
 ![Desktop - screen main](https://user-images.githubusercontent.com/56690309/111365326-5e2e3100-8660-11eb-865e-15fb226186ba.png)
 
@@ -44,4 +59,17 @@ border: 1px solid;
 border-image-source: linear-gradient(91.57deg, rgba(255, 255, 255, 0.4) -4.29%, rgba(255, 255, 255, 0) 110.62%);
 box-shadow: 5px 5px 10px 0px #A6ABBD;
 box-shadow: -5px -5px 10px 0px #FAFBFF;
+
+
+## License 
+The MIT license (MIT)
+
+## Contributions
+
+I invite you to contribute to this project by improving the visual aspects or functionality and loading in the browser.
+
+## More information
+
+:point_right: https://www.npmjs.com/package/live-server
+
 
